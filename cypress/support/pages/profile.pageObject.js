@@ -8,4 +8,4 @@ class profilePageObject extends PageObject {
   }
 }
 
-export default profilePageObject;
+export default profilePageObject; 

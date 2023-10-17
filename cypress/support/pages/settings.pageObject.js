@@ -24,7 +24,7 @@ class settingsPageObject extends PageObject {
   }
 
   get logoutBtn() {
-    return cy.getByDataCy('logout-btn-settings');
+    return cy.getByDataCy('logout-btn-settings'); 
   }
 }
 

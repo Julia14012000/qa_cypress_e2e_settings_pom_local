@@ -4,7 +4,7 @@ class homePageObject extends PageObject {
   url = '/#/';
 
   get usernameLink() {
-    return cy.getByDataCy('/profile/');
+    return cy.getByDataCy('/profile/'); 
   }
 
   get signInLink() {

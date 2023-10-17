@@ -6,7 +6,7 @@ import settingsPageObject from '../support/pages/settings.pageObject';
 import profilePageObject from '../support/pages/profile.pageObject';
 
 const homePage = new homePageObject();
-const settingsPage = new settingsPageObject();
+const settingsPage = new settingsPageObject(); 
 const profilePage = new profilePageObject();
 let user;
 

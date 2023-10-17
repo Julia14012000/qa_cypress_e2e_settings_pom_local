@@ -13,7 +13,7 @@ describe('Sign In page', () => {
   before(() => {
     cy.task('db:clear');
     cy.task('generateUser').then(generateUser => {
-      user = generateUser;
+      user = generateUser; 
     });
   });
   

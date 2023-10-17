@@ -8,7 +8,7 @@ class SignInPageObject extends PageObject {
   }
 
   get passwordField() {
-    return cy.getByDataCy('password-sign-in');
+    return cy.getByDataCy('password-sign-in'); 
   }
 
   get signInBtn() {
